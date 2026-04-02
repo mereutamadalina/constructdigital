@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ConstructDigital — Digitalizarea proceselor în construcții</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav id="navbar">
+    <div class="nav-inner">
+      <a href="#" class="nav-logo">CD<span>.</span></a>
+      <ul class="nav-links">
+        <li><a href="#despre">Despre</a></li>
+        <li><a href="#functionalitati">Funcționalități</a></li>
+        <li><a href="#tehnologii">Tehnologii</a></li>
+        <li><a href="#autor">Autor</a></li>
+      </ul>
+      <button class="hamburger" id="hamburger" aria-label="Meniu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+    <div class="mobile-menu" id="mobileMenu">
+      <a href="#despre">Despre</a>
+      <a href="#functionalitati">Funcționalități</a>
+      <a href="#tehnologii">Tehnologii</a>
+      <a href="#autor">Autor</a>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-tag">Proiect Universitar · gr. TI-231</div>
+    <h1 class="hero-title">
+      Dezvoltarea unei<br />
+      <em>aplicații web</em> pentru<br />
+      digitalizarea proceselor<br />
+      unei companii de construcții
+    </h1>
+    <p class="hero-sub">
+      O platformă modernă care centralizează gestionarea proiectelor, contractelor,
+      echipelor și materialelor — transformând haosul documentelor fizice într-un
+      sistem digital eficient.
+    </p>
+    <div class="hero-cta">
+      <a href="#despre" class="btn-primary">Descoperă proiectul</a>
+      <a href="#autor" class="btn-ghost">Contact autor</a>
+    </div>
+    <div class="hero-stats">
+      <div class="stat"><span class="stat-num">6</span><span class="stat-label">Module principale</span></div>
+      <div class="stat-divider"></div>
+      <div class="stat"><span class="stat-num">100%</span><span class="stat-label">Web-based</span></div>
+      <div class="stat-divider"></div>
+      <div class="stat"><span class="stat-num">0</span><span class="stat-label">Hârtie necesară</span></div>
+    </div>
+  </section>
+
+  <!-- DESPRE -->
+  <section class="section" id="despre">
+    <div class="section-inner two-col">
+      <div class="col-text">
+        <p class="section-tag">Despre proiect</p>
+        <h2>De ce digitalizare în construcții?</h2>
+        <p>
+          Industria construcțiilor este una dintre cele mai puțin digitalizate sectoare economice.
+          Proiectele sunt gestionate prin dosare fizice, foi de calcul și comunicare informală,
+          ceea ce duce la întârzieri, erori și costuri suplimentare.
+        </p>
+        <p>
+          Această aplicație web propune o soluție completă: de la crearea unui proiect
+          până la finalizarea lui, toate procesele sunt gestionate digital, transparent
+          și accesibil de pe orice dispozitiv.
+        </p>
+        <div class="highlight-box">
+          <strong>Obiectivul principal</strong>
+          <p>Reducerea timpului de administrare cu până la 60% prin automatizarea fluxurilor de lucru repetitive.</p>
+        </div>
+      </div>
+      <div class="col-visual">
+        <div class="visual-card">
+          <div class="vc-row">
+            <div class="vc-icon">📋</div>
+            <div>
+              <div class="vc-title">Înainte</div>
+              <div class="vc-desc">Dosare fizice, e-mail-uri pierdute, foi Excel separate</div>
+            </div>
+          </div>
+          <div class="vc-arrow">↓</div>
+          <div class="vc-row accent">
+            <div class="vc-icon">💻</div>
+            <div>
+              <div class="vc-title">După</div>
+              <div class="vc-desc">Platformă unificată, date în timp real, acces de oriunde</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FUNCTIONALITATI -->
+  <section class="section alt" id="functionalitati">
+    <div class="section-inner">
+      <p class="section-tag center">Funcționalități</p>
+      <h2 class="center">Ce poate face platforma</h2>
+      <p class="section-desc center">Șase module integrate care acoperă întregul ciclu de viață al unui proiect de construcții.</p>
+      <div class="cards-grid">
+
+        <div class="feat-card">
+          <div class="feat-num">01</div>
+          <h3>Gestionare proiecte</h3>
+          <p>Creare, urmărire și actualizare proiecte. Termene, bugete, statusuri și responsabili vizibili dintr-o singură privire.</p>
+          <ul>
+            <li>Diagrame Gantt interactive</li>
+            <li>Alerte automate la depășirea termenelor</li>
+            <li>Istoricul modificărilor</li>
+          </ul>
+        </div>
+
+        <div class="feat-card">
+          <div class="feat-num">02</div>
+          <h3>Contracte & devize</h3>
+          <p>Generare automată de contracte și devize din șabloane predefinite. Semnătură digitală și arhivare securizată.</p>
+          <ul>
+            <li>Șabloane personalizabile</li>
+            <li>Export PDF</li>
+            <li>Versionare documente</li>
+          </ul>
+        </div>
+
+        <div class="feat-card">
+          <div class="feat-num">03</div>
+          <h3>Management echipă</h3>
+          <p>Pontaj digital, planificarea turelor și monitorizarea prezenței angajaților pe șantier.</p>
+          <ul>
+            <li>Pontaj cu geolocalizare</li>
+            <li>Planning săptămânal</li>
+            <li>Rapoarte ore lucrate</li>
+          </ul>
+        </div>
+
+        <div class="feat-card">
+          <div class="feat-num">04</div>
+          <h3>Stoc & materiale</h3>
+          <p>Inventar actualizat în timp real. Comenzi automate la atingerea stocului minim. Urmărire furnizori.</p>
+          <ul>
+            <li>Alertă stoc minim</li>
+            <li>Comenzi automate</li>
+            <li>Catalog furnizori</li>
+          </ul>
+        </div>
+
+        <div class="feat-card">
+          <div class="feat-num">05</div>
+          <h3>Dashboard & rapoarte</h3>
+          <p>Vizualizare date în timp real. KPI-uri per proiect, grafice de evoluție și rapoarte exportabile.</p>
+          <ul>
+            <li>Grafice interactive</li>
+            <li>Export Excel / PDF</li>
+            <li>Rapoarte periodice automate</li>
+          </ul>
+        </div>
+
+        <div class="feat-card">
+          <div class="feat-num">06</div>
+          <h3>Notificări & comunicare</h3>
+          <p>Sistem de notificări pentru termene, aprobări și actualizări. Mesagerie internă între membrii echipei.</p>
+          <ul>
+            <li>Notificări push & email</li>
+            <li>Chat intern per proiect</li>
+            <li>Aprobare documente</li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- TEHNOLOGII -->
+  <section class="section" id="tehnologii">
+    <div class="section-inner">
+      <p class="section-tag center">Stack tehnologic</p>
+      <h2 class="center">Tehnologii utilizate</h2>
+      <div class="tech-grid">
+        <div class="tech-block">
+          <div class="tech-layer">Frontend</div>
+          <div class="tech-items">
+            <span class="tech-pill">HTML5</span>
+            <span class="tech-pill">CSS3</span>
+            <span class="tech-pill">JavaScript ES6+</span>
+            <span class="tech-pill">React.js</span>
+          </div>
+        </div>
+        <div class="tech-block">
+          <div class="tech-layer">Backend</div>
+          <div class="tech-items">
+            <span class="tech-pill">Node.js</span>
+            <span class="tech-pill">Express.js</span>
+            <span class="tech-pill">REST API</span>
+          </div>
+        </div>
+        <div class="tech-block">
+          <div class="tech-layer">Bază de date</div>
+          <div class="tech-items">
+            <span class="tech-pill">MySQL</span>
+            <span class="tech-pill">Sequelize ORM</span>
+          </div>
+        </div>
+        <div class="tech-block">
+          <div class="tech-layer">DevOps & Deploy</div>
+          <div class="tech-items">
+            <span class="tech-pill">Git</span>
+            <span class="tech-pill">GitHub</span>
+            <span class="tech-pill">GitHub Pages</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- AUTOR -->
+  <section class="section alt" id="autor">
+    <div class="section-inner">
+      <p class="section-tag center">Autor</p>
+      <h2 class="center">Mereuță Mădălina</h2>
+      <p class="section-desc center">Studentă · Grupa TI-231 · Proiect de licență / disertație</p>
+      <div class="contact-card">
+        <div class="contact-avatar">MM</div>
+        <div class="contact-info">
+          <strong>Mereuță Mădălina</strong>
+          <span>Grupa TI-231</span>
+          <span>Tehnologia Informației</span>
+        </div>
+      </div>
+      <form class="contact-form" id="contactForm">
+        <div class="form-row">
+          <div class="form-group">
+            <label for="name">Nume</label>
+            <input type="text" id="name" placeholder="Numele tău" required />
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" placeholder="email@exemplu.com" required />
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="message">Mesaj</label>
+          <textarea id="message" rows="4" placeholder="Întrebare sau observație despre proiect..." required></textarea>
+        </div>
+        <button type="submit" class="btn-primary">Trimite mesajul</button>
+        <p class="form-success" id="formSuccess">✓ Mesajul a fost trimis cu succes!</p>
+      </form>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer-inner">
+      <span class="nav-logo">CD<span>.</span></span>
+      <p>© 2024 · Mereuță Mădălina · gr. TI-231 · Proiect universitar</p>
+      <a href="https://github.com" target="_blank" class="footer-gh">GitHub ↗</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
